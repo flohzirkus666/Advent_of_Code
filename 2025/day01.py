@@ -5,7 +5,6 @@ def part1(puzzle_input: str) -> None:
     """First puzzle solution"""
     rotations = 0
     dial_position = 50
-    new_position = 0
     for row in puzzle_input.splitlines():
         if "L" in row:
             number = int(row.split("L")[1])
